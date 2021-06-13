@@ -10,5 +10,9 @@ crontabの内容は、環境に応じて変えて下さい。私の場合は、/
 
 # monitor_in.sh, monitor_out.shの内容
 これは、それぞれ、monitor_in.hmtl, monitor_out.hmtl を作成するものです。
+monitor_in.htmlはLANの内側から、monitor_out.htmlはLANの外側から、アクセスするものです。
+
+# chmod +x をしておくもの
+monitor_in.sh, monitor_out.sh, del_1day の3つ
 
 
