@@ -19,4 +19,7 @@ monitor_in.htmlはLANの内側から、monitor_out.htmlはLANの外側から、�
 ## chmod +x をしておくもの
 monitor_in.sh, monitor_out.sh, del_1day の3つ
 
+## その他の設定 
+Webサーバのポート番号(8889)とかの設定は各自で行って下さい。デフォルトのポート番号(80)を使うのは、お勧めしません。
+
 
