@@ -16,6 +16,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 59 *	* * *	ebata    /home/ebata/video/del_1day
 
-#1分おきに実行する
+# Run it every minute.
 */1 *	* * *	ebata    /home/ebata/video/monitor_in.sh > /home/ebata/video/monitor_in.html
 */1 *	* * *	ebata    /home/ebata/video/monitor_out.sh > /home/ebata/video/monitor_out.html
