@@ -1,0 +1,5 @@
+# 24時間経過後のファイルを消す
+find ./ -mtime +3 -name "*.jpg" -exec rm {} \;
+
+# 1000個以上のファイルを消す
+# rm `ls -t *.jpg | tail -n +1000`
