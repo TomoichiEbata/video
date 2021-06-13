@@ -1,0 +1,7 @@
+AuthType      Basic
+AuthName      "HOME VIDEO"
+AuthUserFile  /var/www/html/video/.htpasswd
+require valid-user
+<Files ~ "^.ht">
+   deny from all
+</Files>
