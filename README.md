@@ -21,5 +21,13 @@ monitor_in.sh, monitor_out.sh, del_1day の3つ
 
 ## その他の設定 
 Webサーバのポート番号(8889)とかの設定は各自で行って下さい。デフォルトのポート番号(80)を使うのは、お勧めしません。
+私の場合は、ubuntuのバージョンは16.04で、apache2を使っている。
 
+/etc/apache2/ports.conf　に8080ポートを追加
 
+vi /etc/apache2/ports.conf
+
+Listen 80
+Listen 8889 ←これを追加
+
+その後、"service apache2 restart" で再起動します。
