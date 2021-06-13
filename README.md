@@ -8,3 +8,7 @@
 # crontabの内容
 crontabの内容は、環境に応じて変えて下さい。私の場合は、/home/ebata/video を使っています。
 
+# monitor_in.sh, monitor_out.shの内容
+これは、それぞれ、monitor_in.hmtl, monitor_out.hmtl を作成するものです。
+
+
